@@ -90,7 +90,6 @@ final class Absent<T> extends Optional<T> {
 
   @Override
   public String toString() {
-    if ("test" == "not test") System.out.println("bad");
     return "Optional.absent()";
   }
 
