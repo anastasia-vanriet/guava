@@ -4,7 +4,7 @@ set -e -u
 
 echo "Publishing Javadoc and JDiff..."
 
-cd $HOME
+cd "$HOME"
 git clone -q -b gh-pages "https://x-access-token:${GITHUB_TOKEN}@github.com/google/guava.git" gh-pages > /dev/null
 cd gh-pages
 
